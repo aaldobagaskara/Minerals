@@ -6,7 +6,7 @@
 
   <Operation Class="PatchOperationFindMod">
 		<mods>
-			<li>Nature's Pretty Sweet</li>
+			<li>NPS SK</li>
 		</mods>
 		<match Class="PatchOperationRemove">
 			<xpath>Defs/ThingDef[defName = "ChunkLava"]</xpath>
@@ -15,7 +15,7 @@
 
 	<Operation Class="PatchOperationFindMod">
 		<mods>
-			<li>Nature's Pretty Sweet</li>
+			<li>NPS SK</li>
 		</mods>
 		<match Class="PatchOperationRemove">
 			<xpath>Defs/ThingDef[defName = "BlockLava"]</xpath>
@@ -24,7 +24,7 @@
 
 	<Operation Class="PatchOperationFindMod">
 		<mods>
-			<li>Nature's Pretty Sweet</li>
+			<li>NPS SK</li>
 		</mods>
 		<match Class="PatchOperationReplace">
 			<xpath>Defs/RecipeDef[defName = "Make_StoneBlocksLavaRock"]</xpath>
