@@ -58,7 +58,7 @@
 
 	<Operation Class="PatchOperationFindMod">
 		<mods>
-			<li>Nature's Pretty Sweet</li>
+			<li>NPS SK</li>
 		</mods>
 		<match Class="PatchOperationSetName">
 			<success>Always</success> <!-- MANDATORY due to vanilla bug -->
@@ -69,7 +69,7 @@
 
 	<Operation Class="PatchOperationFindMod">
 		<mods>
-			<li>Nature's Pretty Sweet</li>
+			<li>NPS SK</li>
 		</mods>
 		<match Class="PatchOperationReplace">
 			<xpath>Defs/ThingDef[defName = "LavaRock"]/building/mineableThing</xpath>
@@ -84,7 +84,7 @@
   <!--
   <Operation Class="PatchOperationFindMod">
     <mods>
-      <li>Nature's Pretty Sweet</li>
+      <li>NPS SK</li>
     </mods>
     <match Class="PatchOperationReplace">
       <xpath>Defs/ThingDef[defName = "Lava_Spring"]/comps/li[@Class = "NPS.CompProperties_SpringLava"]/dryTile</xpath>
@@ -96,7 +96,7 @@
 
   <Operation Class="PatchOperationFindMod">
     <mods>
-      <li>Nature's Pretty Sweet</li>
+      <li>NPS SK</li>
     </mods>
     <match Class="PatchOperationReplace">
       <xpath>Defs/ThingDef[defName = "Lava_Spring"]/comps/li[@Class = "NPS.CompProperties_SpringLava"]/spawnProp</xpath>
@@ -108,7 +108,7 @@
 
   <Operation Class="PatchOperationFindMod">
     <mods>
-      <li>Nature's Pretty Sweet</li>
+      <li>NPS SK</li>
     </mods>
     <match Class="PatchOperationReplace">
       <xpath>Defs/BiomeDef[defName = "VolcanicFlow"]/terrainsByFertility/li[terrain = "LavaRock_RoughHewn"]/terrain</xpath>
@@ -120,7 +120,7 @@
 
   <Operation Class="PatchOperationFindMod">
     <mods>
-      <li>Nature's Pretty Sweet</li>
+      <li>NPS SK</li>
     </mods>
     <match Class="PatchOperationReplace">
       <xpath>Defs/BiomeDef[defName = "VolcanicFlow"]/terrainPatchMakers/li/thresholds/li[terrain = "LavaRock_RoughHewn"]/terrain</xpath>
@@ -132,7 +132,7 @@
 
   <Operation Class="PatchOperationFindMod">
     <mods>
-      <li>Nature's Pretty Sweet</li>
+      <li>NPS SK</li>
     </mods>
     <match Class="PatchOperationReplace">
       <xpath>Defs/BiomeDef[defName = "Wasteland"]/terrainsByFertility/li[terrain = "LavaRock_RoughHewn"]/terrain</xpath>
@@ -148,7 +148,7 @@
   <!--
   <Operation Class="PatchOperationFindMod">
     <mods>
-      <li>Nature's Pretty Sweet</li>
+      <li>NPS SK</li>
     </mods>
     <match Class="PatchOperationSequence">
       <success>Normal</success>
@@ -190,7 +190,7 @@
   <!--
   <Operation Class="PatchOperationFindMod">
     <mods>
-      <li>Nature's Pretty Sweet</li>
+      <li>NPS SK</li>
     </mods>
     <match Class="PatchOperationReplace">
       <xpath>Defs/ActiveTerrain.SpecialTerrain[defName = "Lava"]/modExtensions/li[@Class="NPS.TerrainWeatherReactions"]/freezeTerrain</xpath>
